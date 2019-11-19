@@ -23,7 +23,8 @@ def fizz_buzz(input):
         print("Fizz")
     elif input % 5 == 0:
         print("Buzz")
-    return input
+    else:
+        print(input)
 
 
 input_number = int(input("Input: "))
