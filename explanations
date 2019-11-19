@@ -1,0 +1,24 @@
+you give user a title to pick from the list
+then, you show the user a (scrambled) movie name with blanks in it
+and tell the user to fill the blank words
+if user guesses right missing letters in the blanks, the game should progress to next movie name
+else if user makes more wrong guesses in the blank then the title name, the game should be end.
+every time user makes a wrong guess the mistake should add to itself, when the total wrong guesses = to title name =>> end.
+
+
+Think of class as building structure with ten floors
+so basement of this building is like a constructor
+from the basement you can access all the floors in the building
+each floor represents as a function(method)
+so attributes are like a lift
+
+
+# Python code to convert string to list
+
+def convert(string):
+    li = list(string.split(" "))
+    return li
+
+# Driver code
+str1 = "Geeks for Geeks"
+print(Convert(str1))
